@@ -1,0 +1,19 @@
+/*언어 및 문화 본문*/
+#content .content_area {}
+#content .content_area h3 {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 2.143em;text-align: center;margin-bottom: 100px;position: relative}
+#content .content_area h3:after {content: "";display: block;width: 70px;height: 3px;position: absolute;left: 50%;margin-left: -35px;bottom: -20px;background: #ed1c24}
+#content .content_area .hongkong_lang {overflow: hidden;margin: 0 50px 100px 50px}
+#content .content_area .hongkong_lang dl {width:480px}
+#content .content_area .hongkong_lang dl:first-of-type {float: left}
+#content .content_area .hongkong_lang dl:last-of-type {float: right}
+#content .content_area .hongkong_lang dl:before {display: block;font-family: 'Nanum Gothic', sans-serif;font-weight: 700;color: #ed1c24;text-align: center;margin-bottom: 15px}
+#content .content_area .hongkong_lang dl:first-of-type:before {content: "中國語"}
+#content .content_area .hongkong_lang dl:last-of-type:before {content: "english";text-transform: uppercase}
+#content .content_area .hongkong_lang dt {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 1.429em;position: relative;width: 110px;margin: 0 auto 50px;padding: 15px 0;background: #ffffff;border: 1px solid #ed1c24;text-align: center}
+#content .content_area .hongkong_lang dt:before, #content .content_area .hongkong_lang dt:after {content: "";display: block;top: 100%;left: 50%;border: solid transparent;height: 0;width: 0;position: absolute}
+#content .content_area .hongkong_lang dt:before {border-color: rgba(237, 28, 36, 0);border-top-color: #ed1c24;border-width: 11px;margin-left: -11px}
+#content .content_area .hongkong_lang dt:after {border-color: rgba(255, 255, 255, 0);border-top-color: #ffffff;border-width: 10px;margin-left: -10px}
+#content .content_area .hongkong_lang dd {font-size: 1.143em;text-align: justify;line-height: 1.8em}
+#content .content_area .hongkong_cul {}
+#content .content_area .hongkong_cul .hongkong_cul_img {width: 1200px; height: 550px;background: url(../images/content3/culture_img.jpg) no-repeat;background-size: cover;background-position: center;margin-bottom: 50px}
+#content .content_area .hongkong_cul p {font-size: 1.143em;text-align: justify;line-height: 1.8em}

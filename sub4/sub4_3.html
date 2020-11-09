@@ -1,0 +1,53 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-빅토리아 피크</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub4common.css">
+	<link rel="stylesheet" href="css/content3.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=3;
+      include "common/sub_nav.html";?>
+      
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>대표관광지</span>&gt;<strong>빅토리아 피크</strong>
+		        </div>
+		        <h2>빅토리아 피크</h2>
+		    </div>
+		    <div class="content_area">
+        		<div class="hongkong_popular">
+					<p>홍콩 고층 건물들이 만들어내는 <span>환상적인 풍경</span>과 <span>화려한 항만 풍경</span>은 물론, 저 멀리 신계의 푸르른 풍광까지 감상할 수 있다.</p>
+					<div class="popular_img"></div>
+					<p>홍콩에서 딱 한가지 밖에 할 수 없다면 단연 빅토리아 피크로 가야한다. 만약 홍콩에서 여러 가지를 해야 한다해도 꼭 빅토리아 피크로 가보자. 빅토리아 피크는 홍콩섬에서 가장 높은 위치를 자랑하는 곳으로, 영국 식민지시대부터 지금까지 홍콩에서 가장 부유한 동네다. 과거에는 고지대의 특성상 다른 지역보다 시원해서 부유층과 명사들이 이곳으로 몰려들었고, 에어컨이 보편화된 이후로는 세계적으로 인정받는 화려한 도시의 풍광 때문에 여전히 부자들이 이곳에 모여 산다.</p>
+					<p>빅토리아 피크는 환상적인 풍경 때문에 홍콩의 인기 관광 명소로 손꼽히고 있다. 낮에는 화려한 고층빌딩과 빅토리아 하버의 풍경에, 저 멀리 신계의 푸르른 자연풍광까지 내다볼 수 있고, 초저녁에는 오렌지빛으로 물드는 신비로운 풍광을, 어둠이 내리면 마치 은하계를 연상케하는 화려한 홍콩 도심의 불빛을 감상할 수 있다. 그리고 귀를 기울여보면 저 아래에서 '아시아의 월드 시티' 홍콩이 활기차게 움직이고 있는 소리가 들린다.</p>
+		        </div>
+		        <div class="popular_location">
+					<span>위치</span>
+					<div class="popular_location_map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29536.445091817026!2d114.12802240099211!3d22.275882211508165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff89dfbeddb1%3A0x2e318b3c62d99338!2z67mF7Yag66as7JWEIO2UvO2BrA!5e0!3m2!1sko!2skr!4v1595992704429!5m2!1sko!2skr" allowfullscreen="" aria-hidden="false" tabindex="0" title="빅토리아 피크 위치 지도"></iframe>
+					</div>
+				</div>
+		    </div>
+		</article>
+		<? include "../common/sub_foot.html" ?>
+</body>
+</html>

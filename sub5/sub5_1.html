@@ -1,0 +1,170 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-가족코스</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub5common.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=1;
+      include "common/sub_nav.html";?>
+		
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>여행코스</span>&gt;<strong>가족 코스</strong>
+		        </div>
+		        <h2>가족 코스</h2>
+		    </div>
+		    <div class="content_area">
+	        	<div class="plan_nav_box">
+					<nav class="plan_nav">
+						<ul>
+							<li><a href="#">DAY 1</a></li>
+							<li><a href="#">DAY 2</a></li>
+							<li><a href="#">DAY 3</a></li>
+						</ul> 
+					</nav>
+				</div> 
+		        <div class="slide_nav">
+		    		<ul>
+		    			<li class="select tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="tab tab2"><a href="#">DAY 2</a><span>테마파크</span></li>
+		    			<li class="tab tab3"><a href="#">DAY 3</a><span>박물관&amp;공원</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day1">
+		    		<h3 class="hidden">DAY 1:홍콩 맛보기</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>13:00</span>할리우드 로드
+		    					</figcaption>
+		    					<img src="images/theme_course_hollywood_1.jpg" alt="">
+		    					<img src="images/theme_course_hollywood_2.jpg" alt="">
+		    					<img src="images/theme_course_hollywood_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>13:30</span>미드레벨 에스컬레이터
+		    					</figcaption>
+		    					<img src="images/theme_course_mid_1.jpg" alt="">
+		    					<img src="images/theme_course_mid_2.jpg" alt="">
+		    					<img src="images/theme_course_mid_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>14:00</span>소호
+		    					</figcaption>
+		    					<img src="images/theme_course_soho_1.jpg" alt="">
+		    					<img src="images/theme_course_soho_2.jpg" alt="">
+		    					<img src="images/theme_course_soho_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>16:00</span>빅토리아 피크(마담투소 박물관)
+		    					</figcaption>
+		    					<img src="images/theme_course_peak_1.jpg" alt="">
+		    					<img src="images/theme_course_peak_2.jpg" alt="">
+		    					<img src="images/theme_course_peak_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>아이와 함께하는 여행에서 가장 중요한 것은 아이의 기분이다. 우선 할리우드 로드를 걸어보자. 아이들이 좋아할만한 물건이 많아 함께 구경하기 좋다. 걷다가 지칠 때 쯤 미드레벨 에스컬레이터로 향한다. 아이들의 기분을 좋게 해주는 방법은 간단하다. 뭐든 탈 것이 있으면 된다. 길게 뻗은 미드레벨 에스컬레이터로 놀이기구 느낌을 나게 해준다. 문화교육도 할 겸 만모 사원에 들러마음을 가라앉힌 뒤, 아이가 지칠 때쯤 피크 트램을 이용해 빅토리아 피크로 향해보자. 피크타워 지하의 마담 투소에서 기념촬영을 하고 첫 날 일정을 마친다.</p>
+		    	</section>
+		    	<div class="slide_nav">
+		    		<ul>
+		    			<li class="tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="select tab tab2"><a href="#">DAY 2</a><span>테마파크</span></li>
+		    			<li class="tab tab3"><a href="#">DAY 3</a><span>박물관&amp;공원</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day2">
+		    		<h3 class="hidden">DAY 2:테마파크</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>10:00</span>디즈니랜드
+		    					</figcaption>
+		    					<img src="images/theme_course_disney_1.jpg" alt="">
+		    					<img src="images/theme_course_disney_2.jpg" alt="">
+		    					<img src="images/theme_course_disney_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>디즈니랜드는 남녀노소를 막론하고 모두 즐길 수 있는 테마파크다. 동심의 세계를 옮겨놓은 디즈니랜드에서 하루를 몽땅 써버리자. 사실 하루가 부족할지도 모른다. 그러니 디즈니랜드에가는 날은 하루 모두를 쓸 각오로 가는 것이 좋다. 재밌는 놀이기구와 흥미로운 테마관을 즐기다 보면 내일도 디즈니랜드로 와버리고 싶은 충동이 일어날지도 모른다. 여유가 된다면 디즈니랜드에 있는 호텔에서 숙박하며 즐기는 것도 좋은 방법이다.</p>
+		    	</section>
+		    	<div class="slide_nav">
+		    		<ul>
+		    			<li class="tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="tab tab2"><a href="#">DAY 2</a><span>테마파크</span></li>
+		    			<li class="select tab tab3"><a href="#">DAY 3</a><span>박물관&amp;공원</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day3">
+		    		<h3 class="hidden">DAY 3:박물관&amp;공원</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>10:00</span>홍콩역사박물관
+		    					</figcaption>
+		    					<img src="images/theme_course_history_1.jpg" alt="">
+		    					<img src="images/theme_course_history_2.jpg" alt="">
+		    					<img src="images/theme_course_history_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>12:00</span>홍콩과학박물관
+		    					</figcaption>
+		    					<img src="images/theme_course_science_1.jpg" alt="">
+		    					<img src="images/theme_course_science_2.jpg" alt="">
+		    					<img src="images/theme_course_science_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>14:00</span>구룡 공원
+		    					</figcaption>
+		    					<img src="images/theme_course_park_1.jpg" alt="">
+		    					<img src="images/theme_course_park_2.jpg" alt="">
+		    					<img src="images/theme_course_park_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>침사추이의 홍콩 역사박물관과 홍콩과학박물관은 가까운 거리에 있어 함께 둘러보기 좋다. 홍콩역사박물관 2층 100년전 홍콩거리를 재현한 테마관에서 재밌는 기념사진을 남긴 뒤, 홍콩과학박물관을 체험해보자. 여행의 마무리는 공원 산책. 구룡공원 내부에 입점해있는 맥도날드에서 아이스크림 하나씩 사들고 공원을 거닌다.</p>
+		    	</section>
+			</div>
+		</article>
+	<? include "../common/sub_foot.html" ?>
+	<script src="../common/js/sub_top_tab.js"></script>
+	<script src="common/js/sub_scroll.js"></script>
+</body>
+</html>

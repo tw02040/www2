@@ -1,0 +1,73 @@
+/*2depth의 공통*/
+.visual {width: 2000px;height: 400px;position: relative;left: 50%;margin-top: 138px;margin-left: -1000px;z-index: -1;overflow: hidden}
+.visual img {width: 2000px;margin-top: -900px;filter: saturate(.8) brightness(.8)}
+
+.subnav_box {width: 1200px; margin: 0 auto 100px;position: relative;text-align: center;font-family: 'Nanum Gothic', sans-serif;}
+.subnav_box .subnav_text {position: absolute;height: 400px;width: 2000px;left: 50%;top: -400px;margin-left: -1000px;color: #fff;overflow: hidden}
+.subnav_box .subnav_text h3 {font-size: 2.857em;letter-spacing: -1px;font-weight: 400;margin: 140px 0 30px}
+.subnav_box .subnav_text p {font-size: 1.429em;line-height: 1.5em}
+
+.subnav_box .subnav {}
+.subnav_box .subnav ul {overflow: hidden;margin: 0 auto;width: 1000px; border-bottom: 1px solid #ccc}
+.subnav_box .subnav ul li {position: relative;width: 33.33%; float: left;text-align: center}
+.subnav_box .subnav ul li a {display: block; font-size: 1.143em; padding: 17px 0;transition: all .4s ease;color: #666;font-weight: 400}
+.subnav_box .subnav ul li:hover a {color: #ed1c24;font-weight: 700}
+.subnav_box .subnav ul li a:after {content: "";display: block;width: 0;height: 3px;background: #ed1c24;position: absolute;left: 50%;bottom: 0;opacity: 0;transition: all .4s ease;}
+.subnav_box .subnav ul li:hover a:after {content: "";display: block;width: 100%;left: 0;opacity: 1}
+.subnav_box .subnav ul .current {color: #ed1c24;font-weight: 700}
+.subnav_box .subnav ul .current:after {content: "";display: block;width: 100%;left: 0;opacity: 1}
+
+#content {width: 1200px;margin: 0 auto 100px}
+
+#content .title_area {position: relative}
+#content .title_area .line_map {position: absolute;right: 30px;top: -520px;color: #fff}
+#content .title_area h2 {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 3.571em;text-align: center;margin-bottom: 100px}
+
+/*본문*/
+#content .content_area {}
+#content .content_area .slide_nav {margin-bottom: 100px;}
+#content .content_area .slide_nav ul {margin: 0 auto;height: 100px; width: 500px}
+#content .content_area .slide_nav ul li {position: relative;width: 98px;height: 98px;float: left;text-align: center;border: 1px solid #ed1c24;border-radius: 50px;margin-left: 100px;background: #fff}
+#content .content_area .slide_nav ul li:first-of-type {margin-left: 0}
+#content .content_area .slide_nav ul li:hover {background: #ed1c24}
+#content .content_area .slide_nav ul li:after {content: "";display: block; background: #ed1c24;position: absolute;left: 99px;top: 50%;margin-top: 0.5px;width: 100px;height: 1px}
+#content .content_area .slide_nav ul li:last-of-type:after {content: "";display: none}
+#content .content_area .slide_nav ul li a {display: block; width: 100px;height: 60px;font-family: 'Roboto', sans-serif;font-size: 1.143em; padding-top: 40px;color: #ed1c24;font-weight: 700}
+#content .content_area .slide_nav ul li:hover a {color: #fff}
+#content .content_area .slide_nav ul .select {background: #ed1c24}
+#content .content_area .slide_nav ul .select a {color: #fff}
+#content .content_area .slide_nav ul .select span {font-weight: 700}
+#content .content_area .slide_nav ul li span {display: block;margin-top: 20px;font-family: 'Nanum Gothic', sans-serif;font-size: 1.143em}
+#content .content_area .slide_nav ul li:hover span {font-weight: 700}
+
+#content .content_area section {margin-bottom: 100px}
+#content .content_area ol {}
+#content .content_area ol li {margin-bottom: 50px}
+#content .content_area ol li figure {overflow: hidden}
+#content .content_area ol li figure figcaption {text-align: center;font-family: 'Nanum Gothic', sans-serif;font-size: 1.429em;margin-bottom: 50px;position: relative}
+#content .content_area ol li figure figcaption:after {content: "";display: block; background: #ccc;position: absolute;left: 50%;bottom: -40px;margin-left: 0.5px;width: 1px;height: 30px}
+#content .content_area ol li figure figcaption span {display: block;font-family: 'Roboto', sans-serif;font-size: 40px;font-weight: 300;color: #ed1c24}
+#content .content_area ol li figure img {float: left}
+
+#content .content_area p {font-size: 1.143em;line-height: 2em;text-align: justify}
+
+/*.text{position: fixed; right:0; top: 0;font-size: 50px; z-index: 100}*/
+
+.plan_nav_box{background: #fff;border-bottom: 2px solid #ed1c24;display: none}
+/*		상단 고정 메뉴*/
+.navOn{position: fixed; width: 100%; z-index:60; left:0; top: 0;display: block}
+
+
+.plan_nav_box nav{width:1000px; margin: 0 auto}
+.plan_nav_box ul{overflow: hidden}
+.plan_nav_box ul li{float: left; width:33.33%;text-align: center}
+
+.plan_nav_box ul li a{display: block; font-family: 'Roboto', sans-serif;font-size: 1.429em; font-weight: 700;padding: 10px 0; color: #ed1c24; background: #fff; transition: all .8s}
+
+/*		메뉴 활성화*/
+.plan_nav_box ul li a.spy{background: #ed1c24; color: #fff}
+
+
+.course_day1,.course_day2,.course_day3 {position: relative; right:-1000px; top:0; opacity: 0;transition: all .8s}
+/*		스크롤 애니메이션 최종값(목적지)*/
+.boxMove{right:0; opacity: 1}

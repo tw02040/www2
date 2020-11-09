@@ -1,0 +1,200 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-연인코스</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub5common.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=2;
+      include "common/sub_nav.html";?>
+		
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>여행코스</span>&gt;<strong>연인 코스</strong>
+		        </div>
+		        <h2>연인 코스</h2>
+		    </div>
+		    <div class="content_area">
+	        	<div class="plan_nav_box">
+					<nav class="plan_nav">
+						<ul>
+							<li><a href="#">DAY 1</a></li>
+							<li><a href="#">DAY 2</a></li>
+							<li><a href="#">DAY 3</a></li>
+						</ul> 
+					</nav>
+				</div> 
+		        <div class="slide_nav">
+		    		<ul>
+		    			<li class="select tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="tab tab2"><a href="#">DAY 2</a><span>영화 같은 날</span></li>
+		    			<li class="tab tab3"><a href="#">DAY 3</a><span>여유로운 날</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day1">
+		    		<h3 class="hidden">DAY 1:홍콩 맛보기</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>13:00</span>피크 트램
+		    					</figcaption>
+		    					<img src="images/theme_course_peak_1.jpg" alt="">
+		    					<img src="images/theme_course_peak_2.jpg" alt="">
+		    					<img src="images/theme_course_peak_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>16:00</span>소호
+		    					</figcaption>
+		    					<img src="images/theme_course_soho_1.jpg" alt="">
+		    					<img src="images/theme_course_soho_2.jpg" alt="">
+		    					<img src="images/theme_course_soho_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>16:30</span>미드레벨 에스컬레이터
+		    					</figcaption>
+		    					<img src="images/theme_course_mid_1.jpg" alt="">
+		    					<img src="images/theme_course_mid_2.jpg" alt="">
+		    					<img src="images/theme_course_mid_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>19:00</span>빅버스 나이트 투어
+		    					</figcaption>
+		    					<img src="images/theme_course_bigbus_1.jpg" alt="">
+		    					<img src="images/theme_course_bigbus_2.jpg" alt="">
+		    					<img src="images/theme_course_bigbus_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>피크 트램을 타고 빅토리아 피크에 올라 홍콩 시내를 모두 훑어본다. 무더운 홍콩에서 유일하게 쌀쌀한 곳이니, 불쾌지수 걱정 없이 연인과 몸을 맞대고 온기를 나눈다. 그리고는 낭만가득한 센트럴의 소호로 향한다. 곳곳에 숨은 아트갤러리를 감상하고, 미드레벨 에스컬레이터를 타고 마음에 드는 카페에 앉아 잠시 쉬어가도록 하자. 구룡으로 넘어와 마무리로 나이트 빅버스를 타고 시내를 구경하면, 하루 일정 끝!</p>
+		    	</section>
+		    	<div class="slide_nav">
+		    		<ul>
+		    			<li class="tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="select tab tab2"><a href="#">DAY 2</a><span>영화 같은 날</span></li>
+		    			<li class="tab tab3"><a href="#">DAY 3</a><span>여유로운 날</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day2">
+		    		<h3 class="hidden">DAY 2:영화 같은 날</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>10:30</span>시계탑
+		    					</figcaption>
+		    					<img src="images/theme_course_clock_1.jpg" alt="">
+		    					<img src="images/theme_course_clock_2.jpg" alt="">
+		    					<img src="images/theme_course_clock_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>14:00</span>1881 해리티지의 훌렛 하우스 
+		    					</figcaption>
+		    					<img src="images/theme_course_1881_1.jpg" alt="">
+		    					<img src="images/theme_course_1881_2.jpg" alt="">
+		    					<img src="images/theme_course_1881_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>18:00</span>너츠포드 테라스
+		    					</figcaption>
+		    					<img src="images/theme_course_knutsford_1.jpg" alt="">
+		    					<img src="images/theme_course_knutsford_2.jpg" alt="">
+		    					<img src="images/theme_course_knutsford_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>20:00</span>아쿠아 루나 심포니 오브 라이트 
+		    					</figcaption>
+		    					<img src="images/theme_course_Symphony_1.jpg" alt="">
+		    					<img src="images/theme_course_Symphony_2.jpg" alt="">
+		    					<img src="images/theme_course_Symphony_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>21:00</span>아쿠아 바
+		    					</figcaption>
+		    					<img src="images/theme_course_aquabar_1.jpg" alt="">
+		    					<img src="images/theme_course_aquabar_2.jpg" alt="">
+		    					<img src="images/theme_course_aquabar_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>전통적으로 시계탑 앞은 수많은 연인의 약속장소였다. 시계탑에서 출발해 해변 길을 산책한다. 영화 속 주인공들이 거닐던 캔톤 로드를 걸어보기도 하고, 한낮의 뜨거운 열기도 식힐 겸 쇼핑몰에 들어가 슬쩍 쇼핑도 해본다. 쇼핑몰에서 점심을 해결한 뒤 1881 헤리티지의 홀렛 하우스에서 애프터눈 티로 몸과 마음을 차분하게 가라앉혀도 보자. 다음에는 너츠포드 테라스에서 저녁과 약간의 알코올을 섭취한 뒤, 심포니 오브 라이트를 감상하러 간다. 빛의 축제가 끝난 뒤 홍콩의 야경이 잘 보이는 아쿠아 바에서 칵테일 한 잔 하며 하루를 끝마친다. </p>
+		    	</section>
+		    	<div class="slide_nav">
+		    		<ul>
+		    			<li class="tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="tab tab2"><a href="#">DAY 2</a><span>영화 같은 날</span></li>
+		    			<li class="select tab tab3"><a href="#">DAY 3</a><span>여유로운 날</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day3">
+		    		<h3 class="hidden">DAY 3:여유로운 날</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>10:00</span>엘리먼츠
+		    					</figcaption>
+		    					<img src="images/theme_course_elements_1.jpg" alt="">
+		    					<img src="images/theme_course_elements_2.jpg" alt="">
+		    					<img src="images/theme_course_elements_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>12:00</span>리츠칼튼 애프터눈 티
+		    					</figcaption>
+		    					<img src="images/theme_course_tea_1.jpg" alt="">
+		    					<img src="images/theme_course_tea_2.jpg" alt="">
+		    					<img src="images/theme_course_tea_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>공항고속철도(AEL)역과 연결된 엘리먼츠에서 간단한 쇼핑을 한다. 그리고는 엘리먼트와 연결된 리츠칼튼 호텔에 앉아 애프너눈 티로 마무리해보자</p>
+		    	</section>
+			</div>
+		</article>
+	<? include "../common/sub_foot.html" ?>
+	<script src="../common/js/sub_top_tab.js"></script>
+	<script src="common/js/sub_scroll.js"></script>
+</body>
+</html>

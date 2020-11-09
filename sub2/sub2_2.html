@@ -1,0 +1,43 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-위치</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub2common.css">
+	<link rel="stylesheet" href="css/content1.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=2;
+      include "common/sub_nav.html";?>
+      
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>홍콩정보</span>&gt;<strong>위치</strong>
+		        </div>
+		        <h2>위치</h2>
+		    </div>
+		    <div class="content_area">
+		        <img src="images/content2/hongkong_map.jpg" alt="">
+		        <p>중국 남부 해안의 주강삼각주 초입에 위치한 홍콩은 지리적 위치를 기반으로 동양과 서양 사이의 관문으로서 국제 무역의 매력적인 허브 역할을 해 왔다. 이러한 이점을 반영하듯, 아시아의 세계적 도시, 홍콩의 중심부는 항상 분주하고 아름다운 빅토리아 항구였다. 홍콩의 1,104 평방킬로미터를 차지하는 이 지역은 항구의 남쪽에 위치한 홍콩 섬과, 북쪽 해안을 형성하고 있는 구룡 반도, 그리고 구룡 북쪽에서 중국 본토까지 길게 뻗어있는 신계, 그리고 홍콩 국제 공항이 위치한 란타우 섬을 비롯한 200개가 넘는 외진 섬들로 구성되어 있다.</p>
+		    </div>
+		</article>
+	<? include "../common/sub_foot.html" ?>
+</body>
+</html>

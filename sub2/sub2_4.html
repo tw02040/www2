@@ -1,0 +1,74 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-기후</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub2common.css">
+	<link rel="stylesheet" href="css/content4.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=4;
+      include "common/sub_nav.html";?>
+
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>홍콩정보</span>&gt;<strong>기후</strong>
+		        </div>
+		        <h2>기후</h2>
+		    </div>
+		    <div class="content_area">
+                <p>홍콩은 뚜렷한 사계절이 있는 아열대 기후이다. 여행 계획에 큰 영향을 미칠 수있는 유일한 날씨는 태풍 시즌이며, 태풍 시즌은 5월부터 11월까지다. 태풍이 접근하면 텔레비전 및 라디오를 통해 경고 방송을 하고 홍콩 기상청에서 다양한 단계의 경고 신호를 발신한다. 만약 8단계 신호가 발생된다면 대부분의 기업과 상점이 문을 닫고 항공편이 취소될 가능성이 높다.</p>
+                <p>현재 날씨와 계절에 대한 더 자세한 정보는 홍콩 기상청 웹사이트에서 체크할 수 있으며 홍콩에 체류 중이라면, 1878-200번으로 전화를 걸어 3번을 누르면 영어로 최신 날씨 현황을 접할 수 있다.</p>
+                <section class="hongkong_weather">
+                	<h3>계절별 날씨</h3>
+                	<div>
+						<dl>
+							<dt>spring</dt>
+							<dd>3월부터 5월</dd>
+							<dd>평균 기온: 17℃ – 26℃</dd>
+							<dd>온도와 습도가 올라간다. 저녁엔 시원하다.</dd>
+						</dl>
+              			<dl>
+							<dt>summer</dt>
+							<dd>6월부터 8월</dd>
+							<dd>평균 기온: 26℃ – 31℃</dd>
+							<dd>덥고 습하고 맑은 날씨가 대부분이다.</dd>
+						</dl>
+               		</div>
+               		<div>
+						<dl>
+							<dt>autumn</dt>
+							<dd>9월부터 11월</dd>
+							<dd>평균 기온: 19℃ – 28℃</dd>
+							<dd>선선한 바람, 햇빛, 기온이 조화를 이룬다.</dd>
+						</dl>
+              			<dl>
+							<dt>winter</dt>
+							<dd>12월부터 2월</dd>
+							<dd>평균 기온: 12℃ – 20℃</dd>
+							<dd>시원하고 건조하고 흐린 날씨이다.</dd>
+						</dl>
+               		</div>
+                </section>
+		    </div>
+		</article>
+	<? include "../common/sub_foot.html" ?>
+</body>
+</html>

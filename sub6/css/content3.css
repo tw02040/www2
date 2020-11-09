@@ -1,0 +1,29 @@
+/*FAQ 본문*/
+#content .content_area {}
+#content .content_area .contentnav {margin-bottom: 100px;font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .contentnav ul {margin: 0 auto;width: 1006px;overflow: hidden}
+#content .content_area .contentnav ul li {position: relative;width: 200px; float: left;text-align: center;border: 1px solid #ccc;margin-left: -1px}
+#content .content_area .contentnav ul li:first-of-type {margin-left: 0}
+#content .content_area .contentnav ul li:hover {border: 1px solid #ed1c24;position: relative;z-index: 10}
+#content .content_area .contentnav ul li a {display: block; font-size: 1.143em; padding: 17px 0;color: #666;font-weight: 400}
+#content .content_area .contentnav ul li:hover a {color: #ed1c24;font-weight: 700}
+#content .content_area .contentnav ul .select {border: 1px solid #ed1c24;position: relative;z-index: 10}
+#content .content_area .contentnav ul .select a {color: #ed1c24;font-weight: 700}
+
+#content .content_area .tabs .contlist {display: none;margin: 0 auto;width:1000px}
+
+.faq {border-bottom:1px solid #ccc;font-family: 'Nanum Gothic', sans-serif;font-size:1.143em}  
+.faq .hgroup {position:relative;margin:0 0 20px 0;}
+.faq .hgroup span {display: block;font-size:1.429em;font-weight: 700}
+.faq .hgroup .all{position:absolute; top:5px; right:0}
+
+.faq ul{}
+.faq .q{border-top:1px solid #ccc;position: relative}
+.faq .q span{display: block;position: absolute;color: #333;text-align: center;right: 10px;top: 30px}
+
+.faq .q a{display:block;padding:30px 15px;text-align:left}
+.faq .q a .down_chevron_icon{color:#ed1c24}
+.faq .q a.trigger{font-weight: 700}  
+.faq .hide .q a.trigger{font-weight:normal;color: #333}  
+.faq .q a.trigger:hover,.faq .q a.trigger:active,.faq .q a.trigger:focus{font-weight: 700}  
+.faq .a{margin:0;padding:30px 15px;line-height:2em} 

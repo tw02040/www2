@@ -1,0 +1,45 @@
+<script>
+window.onload=function(){
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+        var nav4= document.getElementById('nav4');
+        var nav5= document.getElementById('nav5');
+
+        if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }else if(num==4){
+              nav4.className='current';
+          }else if(num==5){
+              nav5.className='current';
+          }
+}
+</script>
+
+<!--각 1depth의 비주얼+서브네비 공통-->
+		<div class="visual">
+		    <img src="common/images/introduce_visual.jpg" alt="">
+		</div>
+		<div class="subnav_box">
+            <div class="subnav_text">
+                <h3>대표관광지</h3>
+                <p>홍콩에 왔다면 유명한 곳들은 다 방문해봐야죠!
+                    <br>홍콩 대표 관광지 TOP5를 소개합니다.
+                </p>
+            </div>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub4_1.html">템플스트리트 야시장</a></li>
+                    <li><a id="nav2" href="sub4_2.html">홍콩 디즈니랜드</a></li>
+                    <li><a id="nav3" href="sub4_3.html">빅토리아 피크</a></li>
+                    <li><a id="nav4" href="sub4_4.html">란콰이퐁</a></li>
+                    <li><a id="nav5" href="sub4_5.html">포린사원</a></li>
+                </ul>
+            </div>
+		</div>

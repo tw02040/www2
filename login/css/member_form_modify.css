@@ -1,0 +1,34 @@
+#join_headerArea {width: 100%;background: #fff;border-bottom: 1px solid #ddd;margin-bottom: 100px}
+#join_headerArea .join_header_inner {width: 1200px; margin: 0 auto}
+#join_headerArea {}
+#join_headerArea .join_logo {margin: 0;padding: 20px 20px}
+#join_headerArea .join_logo a {display: block;width: 147px;height: 48px;background: url(../../common/images/logo.png);text-indent: -999px; overflow: hidden}
+
+#content {margin-bottom: 200px}
+#content h2 {font-size: 24px;text-align: center;margin-bottom: 50px}
+#content h3 {font-weight: 700}
+#content input {border: none;outline: none;display: block;margin-bottom: 20px}
+#content input:placeholder-shown {opacity: .5;font-size: 12px}
+
+#content ul {width: 500px;margin: 0 auto}
+#content ul li {margin-bottom: 20px;position: relative}
+#content ul li #loadtext,#content ul li #loadtext2 {position: absolute;right: 0;bottom: 30px;font-size: 11px}
+#content ul li input {border-bottom: 1px solid #ccc;width: 500px; height: 70px}
+#content ul li input:focus {border-bottom: 1px solid #ed1c24}
+
+#content ul li.id_box h3, #content ul li.name_box h3 {margin-bottom: 30px}
+#content ul li.id_box span, #content ul li.name_box span {display: block;color: #ed1c24;margin-bottom: 40px}
+
+#content ul li.nick_box {position: relative}
+#content ul li.nick_box span {position: absolute;right: 0;bottom: 20px;font-size: 12px;background: #ed1c24;padding: 10px 15px; border-radius: 30px}
+#content ul li.nick_box span a {color: #fff}
+
+#content ul li.phone_box {}
+#content ul li.phone_box input {width: 150px;text-align: center;display: inline-block}
+
+#content ul li.mail_box {}
+#content ul li.mail_box input {width: 234px;display: inline-block}
+
+#content ul .button_box {text-align: center;margin-top: 100px}
+#content ul .button_box a {display: inline-block;width: 200px;line-height: 24px;padding: 14px 0;border: none;background: #ed1c24;color: #fff;font-size: 14px;cursor: pointer;font-weight: 400}
+#content ul .button_box .reset_bt {background: #999}

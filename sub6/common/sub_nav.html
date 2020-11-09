@@ -1,0 +1,37 @@
+<script>
+window.onload=function(){
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+
+        if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }
+}
+</script>
+
+<!--각 1depth의 비주얼+서브네비 공통-->
+		<div class="visual">
+		    <img src="common/images/introduce_visual.jpg" alt="">
+		</div>
+		<div class="subnav_box">
+            <div class="subnav_text">
+                <h3>커뮤니티</h3>
+                <p>홍콩에 대해 더 궁금한게 있으신가요?
+					<br>궁금하신 모든 것을 알려드립니다.
+                </p>
+            </div>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="../greet/list.php">공지사항</a></li>
+                    <li><a id="nav2" href="../news/list.php">새소식</a></li>
+                    <li><a id="nav3" href="sub6_3.html">FAQ</a></li>
+                </ul>
+            </div>
+		</div>

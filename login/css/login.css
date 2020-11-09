@@ -1,0 +1,25 @@
+#login_headerArea {width: 100%;background: #fff;border-bottom: 1px solid #ddd;margin-bottom: 100px}
+#login_headerArea .login_header_inner {width: 1200px; margin: 0 auto}
+#login_headerArea {}
+#login_headerArea .login_logo {margin: 0;padding: 20px 20px}
+#login_headerArea .login_logo a {display: block;width: 147px;height: 48px;background: url(../../common/images/logo.png);text-indent: -999px; overflow: hidden}
+
+#content {margin-bottom: 200px}
+#content h2 {font-size: 24px;text-align: center;margin-bottom: 70px}
+#content h3 {font-weight: 700}
+#content input {border: none;outline: none;display: block;margin-bottom: 30px}
+#content input:placeholder-shown {opacity: .5;font-size: 12px}
+
+#content ul {width: 500px;margin: 0 auto}
+#content ul li {margin-bottom: 20px;position: relative}
+#content ul li #loadtext,#content ul li #loadtext2 {position: absolute;right: 0;bottom: 30px;font-size: 11px}
+#content ul li input {border-bottom: 1px solid #ccc;width: 500px; height: 70px}
+#content ul li input:focus {border-bottom: 1px solid #ed1c24}
+
+#content ul li.pass_box {margin-bottom: 50px}
+
+#content ul li.login_button,#content ul li.join_button {text-align: center}
+#content ul li.login_button input {line-height: 24px;padding: 14px 0;border: none;background: #ed1c24;color: #fff;font-size: 16px;cursor: pointer;font-weight: 700;border-radius: 5px}
+
+#content ul li.join_button span {color: #666;font-size: 12px;margin-right: 10px}
+#content ul li.join_button a {display: inline-block;line-height: 24px;padding: 7px 15px;border: 1px solid #ed1c24;color: #ed1c24;font-size: 12px;cursor: pointer;font-weight: 400;border-radius: 30px}

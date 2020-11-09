@@ -1,0 +1,89 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-목표</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub1common.css">
+	<link rel="stylesheet" href="css/content2.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=2;
+      include "common/sub_nav.html";?>
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>관광청소개</span>&gt;<strong>목표</strong>
+		        </div>
+		        <h2>목표</h2>
+		    </div>
+		    <div class="content_area">
+        		<div class="hongkong_misson">
+					<p>2001년 4월 1일에 설립 된 홍콩 관광청은 <span>홍콩 관광진흥</span>을 위해 다양한 홍보활동을 전개하고 있습니다.</p>
+					<div class="misson_img"></div>
+					<p>홍콩 관광청은 목표를 달성하기 위해 관련 정부 부서 및 조직, 여행 관련 부문 및 기타 관광 관련 단체와 협력합니다. 또한 정기적으로 이해 관계자들과 협의하고 여러 전략 그룹 및 포럼에 참여합니다. 홍콩 관광청은 홍콩 여행자들의 프로필 및 선호도에 대한 광범위한 연구를 수행합니다. 이러한 연구를 통해 최신 관광 동향 및 패턴들을 알아내며, 그것에 대한 분석 및 전망 그리고 다양한 방문자 정보들을 통해 홍콩 관광청의 마케팅 전략을 도출합니다.</p>
+					<p>홍콩 관광청은 홍콩의 브랜드 강점을 전 세계 여행 무역, 미디어 및 소비자에게 전달하기 위해 다양한 채널을 활용하고 종합적인 캠페인과 1년 내내 진행되는 이벤트 프로그램을 마련하여 방문객 경험을 풍부하게 하고 여행 관련 분야의 비즈니스 기회를 창출하는 역할을 합니다.</p>
+		        </div>
+		        <section class="hongkong_work">
+					<h3>홍콩관광청의 주요 업무</h3>
+					<div>
+						<dl>
+							<dt>01</dt>
+							<dd>홍콩 관광업에 대한
+								<br>기여도를 높이기 위해 노력
+							</dd>
+						</dl>
+						<dl>
+							<dt>02</dt>
+							<dd>홍콩을 국제도시이자 세계적인
+								<br>관광지로 전세계에 홍보
+							</dd>
+						</dl>
+						<dl>
+							<dt>03</dt>
+							<dd>홍콩 여행객들을 위한
+								<br>시설 개선을 촉진
+							</dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>04</dt>
+							<dd>지역사회가 관광의 중요성을
+								<br>알 수 있도록 정부를 지원
+							</dd>
+						</dl>
+						<dl>
+							<dt>05</dt>
+							<dd>여행객을 위한 서비스를
+								<br>제공하는 기업의 활동을 지원
+							</dd>
+						</dl>
+						<dl>
+							<dt>06</dt>
+							<dd>홍콩 여행객들을 위한
+								<br>관광자료 및 브로슈어 제작
+							</dd>
+						</dl>
+					</div>
+		    	</section>
+		    </div>
+		</article>
+		<? include "../common/sub_foot.html" ?>
+</body>
+</html>

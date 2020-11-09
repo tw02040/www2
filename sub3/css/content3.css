@@ -1,0 +1,17 @@
+/*축제 본문*/
+#content .content_area {}
+
+#content .content_area li {position: relative;width: 1200px;height: 500px;margin-bottom: 100px}
+#content .content_area li:last-of-type {margin-bottom: 0}
+#content .content_area li:after {content: "";display: block; background: #000;opacity: .3;width: 100%;height: 100%;position: absolute;left: 0;top: 0}
+#content .content_area li dl {font-family: 'Nanum Gothic', sans-serif;position: absolute;top: 100px;width: 440px;height: 200px;background: #fff;padding: 50px 70px;z-index: 10}
+#content .content_area li:nth-of-type(2n-1) dl {left: 60px}
+#content .content_area li:nth-of-type(2n) dl {right: 60px}
+#content .content_area li dt {font-size: 1.571em;font-weight: 700;margin-bottom: 25px}
+#content .content_area li dd {font-size: 1.143em;line-height: 1.8em;text-align: justify}
+
+#content .content_area .festival_cyclothon {background: url(../images/content3/theme_festival_cyclothon_img.jpg);background-size: cover;background-position: center}
+#content .content_area .festival_newyear {background: url(../images/content3/theme_festival_newyear_img.jpg);background-size: cover;background-position: center}
+#content .content_area .festival_light {background: url(../images/content3/theme_festival_light_img.jpg);background-size: cover;background-position: center}
+#content .content_area .festival_bread {background: url(../images/content3/theme_festival_bun_img.jpg);background-size: cover;background-position: center}
+#content .content_area .festival_badminton {background: url(../images/content3/theme_festival_badminton_img.jpg);background-size: cover;background-position: center}

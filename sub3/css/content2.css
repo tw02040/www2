@@ -1,0 +1,33 @@
+/*쇼핑 본문*/
+#content .content_area {}
+#content .content_area .contentnav {margin-bottom: 100px;font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .contentnav ul {margin: 0 auto;width: 1006px;overflow: hidden}
+#content .content_area .contentnav ul li {position: relative;width: 200px; float: left;text-align: center;border: 1px solid #ccc;margin-left: -1px}
+#content .content_area .contentnav ul li:first-of-type {margin-left: 0}
+#content .content_area .contentnav ul li:hover {border: 1px solid #ed1c24;position: relative;z-index: 10}
+#content .content_area .contentnav ul li a {display: block; font-size: 1.143em; padding: 17px 0;color: #666;font-weight: 400}
+#content .content_area .contentnav ul li:hover a {color: #ed1c24;font-weight: 700}
+#content .content_area .contentnav ul .select {border: 1px solid #ed1c24;position: relative;z-index: 10}
+#content .content_area .contentnav ul .select a {color: #ed1c24;font-weight: 700}
+
+#content .content_area .tabs .contlist {display: none}
+
+#content .content_area .theme_shopping_main {margin-bottom: 100px}
+#content .content_area .theme_shopping_main .theme_shopping_background {width: 1200px;height: 250px;margin-bottom: 50px;overflow: hidden;position: relative}
+#content .content_area .theme_shopping_main .theme_shopping_background:after {content: "";display: block; background: #000;opacity: .3;width: 100%;height: 100%;position: absolute;left: 0;top: 0}
+#content .content_area .theme_shopping_main span {display: block; font-family: 'Nanum Gothic', sans-serif;font-size: 2.143em;font-weight: 700;color: #fff;text-align: center; margin-top: 100px;position: relative;z-index: 10}
+#content .content_area .theme_shopping_main p {font-size: 1.143em;margin-bottom: 30px;line-height: 2em;text-align: justify}
+#content .content_area .theme_shopping_main p:last-of-type {margin-bottom: 0}
+
+#content .content_area h4 {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 2.143em;text-align: center;margin-bottom: 100px;position: relative}
+#content .content_area h4:after {content: "";display: block;width: 70px;height: 3px;position: absolute;left: 50%;margin-left: -35px;bottom: -20px;background: #ed1c24}
+
+#content .content_area .theme_shopping_location_map {width: 1000px; height: 600px; margin: 0 auto}
+#content .content_area .theme_shopping_location_map iframe {width: 100%; height: 100%}
+
+#content .content_area #shoppingSoho .theme_shopping_background {background: url(../images/content2/theme_shopping_soho_img.jpg) no-repeat fixed center}
+/*#content .content_area #shoppingSoho .theme_shopping_location_map {background: url(../images/content2/theme_shopping_soho_map.jpg) no-repeat center}*/
+#content .content_area #shoppingCausewayBay .theme_shopping_background {background: url(../images/content2/theme_shopping_causewaybay_img.jpg) no-repeat fixed center}
+#content .content_area #shoppingStanley .theme_shopping_background {background: url(../images/content2/theme_shopping_stanley_img.jpg) no-repeat fixed center}
+#content .content_area #shoppingTsimShaTsui .theme_shopping_background {background: url(../images/content2/theme_shopping_tsimsha_img.jpg) no-repeat fixed center}
+#content .content_area #shoppingMongKok .theme_shopping_background {background: url(../images/content2/theme_shopping_mongkok_img.jpg) no-repeat fixed center}

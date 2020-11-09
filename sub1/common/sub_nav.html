@@ -1,0 +1,41 @@
+<script>
+window.onload=function(){
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+        var nav4= document.getElementById('nav4');
+
+        if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }else if(num==4){
+              nav4.className='current';
+          }
+}
+</script>   
+
+<!--각 1depth의 비주얼+서브네비 공통-->
+		<div class="visual">
+		    <img src="common/images/introduce_visual.jpg" alt="">
+		</div>
+		<div class="subnav_box">
+            <div class="subnav_text">
+                <h3>관광청소개</h3>
+                <p>누구나 여행 가고 싶은 매력적인 볼거리가 넘치는 홍콩!
+                    <br>홍콩 관광청에 대해 소개합니다.
+                </p>
+            </div>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub1_1.html">인사말</a></li>
+                    <li><a id="nav2" href="sub1_2.html">목표</a></li>
+                    <li><a id="nav3" href="sub1_3.html">세계지사</a></li>
+                    <li><a id="nav4" href="sub1_4.html">오시는길</a></li>
+                </ul>
+            </div>
+		</div>

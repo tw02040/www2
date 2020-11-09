@@ -1,0 +1,53 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-템플스트리트 야시장</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub4common.css">
+	<link rel="stylesheet" href="css/content1.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=1;
+      include "common/sub_nav.html";?>
+      
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>대표관광지</span>&gt;<strong>템플스트리트 야시장</strong>
+		        </div>
+		        <h2>템플스트리트 야시장</h2>
+		    </div>
+		    <div class="content_area">
+        		<div class="hongkong_popular">
+					<p><span>길거리 음식과 기념품이 가득</span>하고 경극 공연이 펼쳐지기도 하고 점술가들도 만나볼 수 있다.<br>번잡함 속에서 나름 체계 잡힌 시장 모습이 매력적이다.</p>
+					<div class="popular_img"></div>
+					<p>해가 저물면 상인들은 이미 시장에 물건을 펼쳐놓고 손님들을 기다리고 있고, 경극 배우들과 점술가들도 하나둘 모여들기 시작한다. 이곳이 바로 홍콩의 유명한 템플 스트리트 야시장이다. 큰길 중심에 위치한 틴하우 사원 때문에 템플 스트리트 야시장이라는 이름을 얻게 됐다. 틴하우 사원은 홍콩 특유의 독특한 분위기를 품고 있다.</p>
+					<p>자질구레한 장신구나 다기, 전자기기, 시계, 남성의류, 옥, 골동품 등을 구경하며 흥정을 해보자. 또한, 토기를 이용한 밥요리인 클레이포트 라이스, 해산물, 국수 등 다양한 요리도 입맛대로 즐겨보자.템플 스트리트 야시장은 축제와 극장이 가미된 중국 시장의 특징을 보여주는 전형적인 곳으로, 매일 밤 다양한 볼거리가 펼쳐진다.</p>
+		        </div>
+		        <div class="popular_location">
+					<span>위치</span>
+					<div class="popular_location_map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.2464187959927!2d114.1677864508475!3d22.30651848524836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400eaf30bc0cd%3A0xb7dd432faf8433a4!2z7YWc7ZSM7Iqk7Yq466as7Yq4IOyVvOyLnOyepQ!5e0!3m2!1sko!2skr!4v1595991353391!5m2!1sko!2skr" allowfullscreen="" aria-hidden="false" tabindex="0" title="템플스트리트 야시장 위치 지도"></iframe>
+					</div>
+				</div>
+		    </div>
+		</article>
+		<? include "../common/sub_foot.html" ?>
+</body>
+</html>

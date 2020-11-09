@@ -1,0 +1,190 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-싱글코스</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub5common.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=3;
+      include "common/sub_nav.html";?>
+		
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>여행코스</span>&gt;<strong>싱글 코스</strong>
+		        </div>
+		        <h2>싱글 코스</h2>
+		    </div>
+		    <div class="content_area">
+	        	<div class="plan_nav_box">
+					<nav class="plan_nav">
+						<ul>
+							<li><a href="#">DAY 1</a></li>
+							<li><a href="#">DAY 2</a></li>
+							<li><a href="#">DAY 3</a></li>
+						</ul> 
+					</nav>
+				</div> 
+		        <div class="slide_nav">
+		    		<ul>
+		    			<li class="select tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="tab tab2"><a href="#">DAY 2</a><span>혼자하는 여행</span></li>
+		    			<li class="tab tab3"><a href="#">DAY 3</a><span>화려한 싱글</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day1">
+		    		<h3 class="hidden">DAY 1:홍콩 맛보기</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>15:00</span>캔톤 로드 쇼핑몰
+		    					</figcaption>
+		    					<img src="images/theme_course_cantonroad_1.jpg" alt="">
+		    					<img src="images/theme_course_cantonroad_2.jpg" alt="">
+		    					<img src="images/theme_course_cantonroad_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>18:00</span>너츠포드 테라스
+		    					</figcaption>
+		    					<img src="images/theme_course_knutsford_1.jpg" alt="">
+		    					<img src="images/theme_course_knutsford_2.jpg" alt="">
+		    					<img src="images/theme_course_knutsford_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>20:00</span>심포니 오브 라이트
+		    					</figcaption>
+		    					<img src="images/theme_course_Symphony_1.jpg" alt="">
+		    					<img src="images/theme_course_Symphony_2.jpg" alt="">
+		    					<img src="images/theme_course_Symphony_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>21:00</span>몽콕 야시장
+		    					</figcaption>
+		    					<img src="images/theme_course_mongkok_1.jpg" alt="">
+		    					<img src="images/theme_course_mongkok_2.jpg" alt="">
+		    					<img src="images/theme_course_mongkok_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>혼자여서 더 좋은 점이 있다. 쇼핑 할 때 자신의 물건만 볼 수 있다는 것. 우선 캔톤 로드의 쇼핑몰로 가서 화려한 싱글 여행족에 어울릴만한 아이템을 수집한다. 쇼핑을 마친 뒤 너츠포드 테라스에 바에 앉아 바텐더에게 말도 걸어보고, 옆자리에 앉은 외국인과 대화도 해본다. 친구가 생겼다면 같이 가도 좋고, 아니라도 괜찮다. 심포니 오브 라이트를 감상하러 사람이 북적이는 해안가로 향한다. 숙소에 그냥 들어가기 아쉬우니 몽콕 야시장에 들러 시장 구경하면서 하루를 마무리 한다.</p>
+		    	</section>
+		    	<div class="slide_nav">
+		    		<ul>
+		    			<li class="tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="select tab tab2"><a href="#">DAY 2</a><span>혼자하는 여행</span></li>
+		    			<li class="tab tab3"><a href="#">DAY 3</a><span>화려한 싱글</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day2">
+		    		<h3 class="hidden">DAY 2:혼자하는 여행</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>12:00</span>센트럴
+		    					</figcaption>
+		    					<img src="images/theme_course_central_1.jpg" alt="">
+		    					<img src="images/theme_course_central_2.jpg" alt="">
+		    					<img src="images/theme_course_central_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>13:00</span>포팅거 스트리트
+		    					</figcaption>
+		    					<img src="images/theme_course_pottinger_1.jpg" alt="">
+		    					<img src="images/theme_course_pottinger_2.jpg" alt="">
+		    					<img src="images/theme_course_pottinger_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>14:00</span>피크타워
+		    					</figcaption>
+		    					<img src="images/theme_course_peaktower_1.jpg" alt="">
+		    					<img src="images/theme_course_peaktower_2.jpg" alt="">
+		    					<img src="images/theme_course_peaktower_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>17:00</span>소호
+		    					</figcaption>
+		    					<img src="images/theme_course_soho_1.jpg" alt="">
+		    					<img src="images/theme_course_soho_2.jpg" alt="">
+		    					<img src="images/theme_course_soho_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>19:30</span>란콰이퐁
+		    					</figcaption>
+		    					<img src="images/theme_course_lankwaifong_1.jpg" alt="">
+		    					<img src="images/theme_course_lankwaifong_2.jpg" alt="">
+		    					<img src="images/theme_course_lankwaifong_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>혼자하는 여행의 최대 장점! 늦잠. 느즈막히 일어나 센트럴에서 브런치를 먹는다. 마치 서양사람이 된듯 한껏 허세도 부리면서. 여유롭게 식사를 마친 뒤 포팅거 스트리트를 둘러 보고 피크 트램에 몸을 실어본다. 꿀렁꿀렁 덜컹덜컹 좀 재밌다. 피크타워에 도착해 홍콩의 전경을 보며 이런저런 생각에 빠져보기도 한다. 다시 센트럴 소호로 내려와 간단하게 쇼핑도 하고, 불타는 밤을 보내기 위해 란콰이퐁으로 향한다. 어차피 자유로운 몸. 클럽도 좋고, 펍도 좋다. 오늘 밤은 늦게 자도 좋다. 왜냐면, 혼자 왔으니까. </p>
+		    	</section>
+		    	<div class="slide_nav">
+		    		<ul>
+		    			<li class="tab tab1"><a href="#">DAY 1</a><span>홍콩 맛보기</span></li>
+		    			<li class="tab tab2"><a href="#">DAY 2</a><span>혼자하는 여행</span></li>
+		    			<li class="select tab tab3"><a href="#">DAY 3</a><span>화려한 싱글</span></li>
+		    		</ul>
+		    	</div>
+		    	<section class="course_day3">
+		    		<h3 class="hidden">DAY 3:화려한 싱글</h3>
+		    		<ol>
+		    			<li>
+		    				<figure>
+		    					<figcaption>
+		    						<span>11:00</span>코즈웨이베이
+		    					</figcaption>
+		    					<img src="images/theme_course_causewaybay_1.jpg" alt="">
+		    					<img src="images/theme_course_causewaybay_2.jpg" alt="">
+		    					<img src="images/theme_course_causewaybay_3.jpg" alt="">
+		    				</figure>
+		    			</li>
+		    		</ol>
+		    		<p>마지막 날. 역시 느즈막히 일어나 코즈웨이베이의 캐피탈 카페에서 브런치를 먹으며 하루를 시작해본다. 장국영이 자주 방문했다는 캐피탈 카페의 브런치 메뉴를 먹으며, 자신도 마치 무비 스타가 된듯한 기분에 취해보기도 한다. 한껏 분위기를 낸 뒤 공항으로 향하며 여행을 마무리 한다.</p>
+		    	</section>
+			</div>
+		</article>
+	<? include "../common/sub_foot.html" ?>
+	<script src="../common/js/sub_top_tab.js"></script>
+	<script src="common/js/sub_scroll.js"></script>
+</body>
+</html>

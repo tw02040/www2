@@ -1,0 +1,36 @@
+/*음식 본문*/
+#content .content_area {}
+#content .content_area .contentnav {margin-bottom: 100px;font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .contentnav ul {margin: 0 auto;width: 1006px;overflow: hidden}
+#content .content_area .contentnav ul li {position: relative;width: 200px; float: left;text-align: center;border: 1px solid #ccc;margin-left: -1px}
+#content .content_area .contentnav ul li:first-of-type {margin-left: 0}
+#content .content_area .contentnav ul li:hover {border: 1px solid #ed1c24;position: relative;z-index: 10}
+#content .content_area .contentnav ul li a {display: block; font-size: 1.143em; padding: 17px 0;color: #666;font-weight: 400}
+#content .content_area .contentnav ul li:hover a {color: #ed1c24;font-weight: 700}
+#content .content_area .contentnav ul .select {border: 1px solid #ed1c24;position: relative;z-index: 10}
+#content .content_area .contentnav ul .select a {color: #ed1c24;font-weight: 700}
+
+#content .content_area .tabs .contlist {display: none}
+
+#content .content_area .theme_food_background {position: relative;width: 1200px;height: 360px;margin-bottom: 50px;}
+#content .content_area .theme_food_main {margin-bottom: 100px}
+#content .content_area .theme_food_main dl {font-family: 'Nanum Gothic', sans-serif;position: absolute;right: 60px;top: 80px;width: 440px;height: 100px;background: #fff;padding: 50px 70px}
+#content .content_area .theme_food_main dt {font-size: 1.571em;font-weight: 700;margin-bottom: 25px}
+#content .content_area .theme_food_main dd {font-size: 1.143em;line-height: 1.5em;text-align: justify}
+#content .content_area .theme_food_main p {font-size: 1.143em;margin-bottom: 30px;line-height: 2em;text-align: justify}
+#content .content_area .theme_food_main p:last-of-type {margin-bottom: 0}
+#content .content_area h4 {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 2.143em;text-align: center;margin-bottom: 100px;position: relative}
+#content .content_area h4:after {content: "";display: block;width: 70px;height: 3px;position: absolute;left: 50%;margin-left: -35px;bottom: -20px;background: #ed1c24}
+#content .content_area .theme_food_recommend {}
+#content .content_area .theme_food_recommend ul {overflow: hidden;margin: 0 100px}
+#content .content_area .theme_food_recommend li {float: left;width: 475px;margin-bottom: 50px}
+#content .content_area .theme_food_recommend li:nth-of-type(2n-1) {margin-right: 50px}
+#content .content_area .theme_food_recommend li img {margin-bottom: 36px}
+#content .content_area .theme_food_recommend li dt {font-family: 'Nanum Gothic', sans-serif;font-size: 1.571em;font-weight: 700;margin-bottom: 36px}
+#content .content_area .theme_food_recommend li dd {font-size: 1.143em;line-height: 1.5em;text-align: justify}
+
+#content .content_area #foodBarbecue .theme_food_background {background: url(../images/content1/theme_food_barbecue_img.jpg);background-size: cover;background-position: center}
+#content .content_area #foodDimsom .theme_food_background {background: url(../images/content1/theme_food_dimsum_img.jpg);background-size: cover;background-position: center}
+#content .content_area #foodStreetSnacks .theme_food_background {background: url(../images/content1/theme_food_street_img.jpg);background-size: cover;background-position: 50% 85%}
+#content .content_area #foodNoodle .theme_food_background {background: url(../images/content1/theme_food_noodle_img.jpg);background-size: cover;background-position: center}
+#content .content_area #foodDessert .theme_food_background {background: url(../images/content1/theme_food_dessert_img.jpg);background-size: cover;background-position: center}

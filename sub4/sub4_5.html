@@ -1,0 +1,54 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-포린사원</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub4common.css">
+	<link rel="stylesheet" href="css/content5.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=5;
+      include "common/sub_nav.html";?>
+      
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>대표관광지</span>&gt;<strong>포린사원</strong>
+		        </div>
+		        <h2>포린사원</h2>
+		    </div>
+		    <div class="content_area">
+        		<div class="hongkong_popular">
+					<p>란타우 섬에 위치한 아름다운 사원으로, <span>청동좌불상으로 유명</span>하다.</p>
+					<div class="popular_img"></div>
+					<p>홍콩 섬 서쪽 끝 케네디 타운에 위치한 로판 사원은 홍콩에서 유일하게 중국 건축업자들과 목수들의 수호신인 로판을 모시고 있다. 로판은 춘추시대에 살았으며, 목수이자 엔지니어, 철학자, 발명가, 군 사상가, 정치가로 활약했다.</p>
+					<p>사원 안에 새겨 놓은 조각을 보면, 1884년 관련 업계 사람들의 기부금을 통해 도급업자협회가 이 사원을 건축했음을 알 수 있다. 오늘날에도 로판 사원을 찾는 대부분의 신자들은 건축 관련업자들로 로판에게 경의를 표하고 축복을 기원한다. 신도들은 매년 음력 6월13일 로판의 탄신일을 경축한다.</p>
+					<p>로판 사원은 2개 홀 구조로 되어 있으며 스완 도기 소상, 조형물, 벽화 등으로 화려하게 꾸며져 있다. 중심 출입문 양쪽 면에는 로판의 건축에 대한 업적을 칭송하는 중국어 시가 새겨져 있다. 1급 사적 건물 재건 사업으로 지붕 타일, 지붕보, 벽 등에 대한 보수 공사가 진행됐다.</p>
+		        </div>
+		        <div class="popular_location">
+					<span>위치</span>
+					<div class="popular_location_map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.633384533899!2d113.90279531528071!3d22.253984685347632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340158f66af64e31%3A0x4d0fe4264be5f070!2z7Yuw7JWIIO2DhCDrtoDsspjsg4E!5e0!3m2!1sko!2skr!4v1595994188830!5m2!1sko!2skr" allowfullscreen="" aria-hidden="false" tabindex="0" title="포린사원 위치 지도"></iframe>
+					</div>
+				</div>
+		    </div>
+		</article>
+		<? include "../common/sub_foot.html" ?>
+</body>
+</html>

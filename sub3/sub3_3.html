@@ -1,0 +1,78 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-축제</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub3common.css">
+	<link rel="stylesheet" href="css/content3.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=3;
+      include "common/sub_nav.html";?>
+      
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>테마여행</span>&gt;<strong>축제</strong>
+		        </div>
+		        <h2>축제</h2>
+		    </div>
+		    <div class="content_area">
+		    	<ul>
+		    		<li class="festival_cyclothon">
+		    			<h3 class="hidden">Cyclothon</h3>
+						<dl>
+							<dt>Cyclothon</dt>
+							<dd>자전거 열풍은 홍콩에서도 대단합니다. 홍콩 사이클로톤은 아마추어와 프로선수가 함께 참가 할 수 있는 코스로 자전거를 사랑하는 많은 사람들과 함께 홍콩의 아름다운 경치를 감상하며 라이딩을 할 수 있습니다. 또한, 세계 각국의 사이클 선수들의 레이스와 응원전 놓치지 마세요.</dd>
+						</dl>
+		    		</li>
+		    		<li class="festival_newyear">
+		    			<h3 class="hidden">홍콩 설축제</h3>
+						<dl>
+							<dt>홍콩 설축제</dt>
+							<dd>사람들로 북적이는 사원에서 새해 행운을 빌어보고, 새해맞이 꽃시장과 붉은 등으로 장식된 거리곳곳에서 축제분위기를 흠뻑 느껴보세요. 이 시기에 홍콩에 방문했다면, 다른 어느때 보다 화려한 분위기의 빅토리아항의 불꽃쇼, 설경 그리고 전 세계에서 모인 공연자들의 홍콩 설 퍼레이드를 만날 수 있다.</dd>
+						</dl>
+		    		</li>
+		    		<li class="festival_light">
+		    			<h3 class="hidden">봄 등축제</h3>
+						<dl>
+							<dt>봄 등축제</dt>
+							<dd>봄 등축제는 음력 1월 15일이며, 설축제 마지막쯤에 주로 치뤄진다. 예전부터 미혼남녀들은 성스러운 이 날에 짝짓기 게임을 하곤 했으며, 짝을 찾는 데 관심이 있든 없든 이 기간동안 홍콩의 공원과 꽃시장, 레스토랑이 화려한 등으로 치장되어있어 그 자체만으로도 아름다운 볼거리를 선사한다.</dd>
+						</dl>
+		    		</li>
+		    		<li class="festival_bread">
+		    			<h3 class="hidden">청차우 빵 축제</h3>
+						<dl>
+							<dt>청차우 빵 축제</dt>
+							<dd>매년 홍콩 청차우 섬마을 사람들은 종이로 조상과 신의 형상을 만들고, 빵을 굽고, 대나무 탑을 세우느라 바쁘다. 홍콩에서는 해마다 해적들에 의해 희생된 배고픈 유령들이 음식을 찾아 이 평화로운 섬을 돌아다닌다고 믿는다. 빵 축제는 유령들을 달래기 위한 목적으로도 시작되었다.</dd>
+						</dl>
+		    		</li>
+		    		<li class="festival_badminton">
+		    			<h3 class="hidden">홍콩 오픈 배드민턴 챔피언십</h3>
+						<dl>
+							<dt>홍콩 오픈 배드민턴 챔피언십</dt>
+							<dd>약 200명의 세계 최고 선수들이 참가하는 이 대회는 녹아웃 시스템을 적용하며 남자 여자 단식, 남녀 복식, 혼합 복식 경기로 이루어져 있다. 홍콩 오픈 배드민턴 챔피언십은 배드민턴의 세계적 스타들이 아시아의 글로벌 도시, 홍콩에서 한자리에 모여 치열한 경기를 펼치는 또 하나의 국제 스포츠 대회다.</dd>
+						</dl>
+		    		</li>
+		    	</ul>
+		    </div>
+		</article>
+	<? include "../common/sub_foot.html" ?>
+</body>
+</html>

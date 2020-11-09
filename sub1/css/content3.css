@@ -1,0 +1,23 @@
+/*세계지사 본문*/
+#content .content_area {font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .contentnav {margin-bottom: 100px}
+#content .content_area .contentnav ul {margin: 0 auto;width: 1006px;overflow: hidden}
+#content .content_area .contentnav ul li {position: relative;width: 200px; float: left;text-align: center;border: 1px solid #ccc;margin-left: -1px}
+#content .content_area .contentnav ul li:first-of-type {margin-left: 0}
+#content .content_area .contentnav ul li:hover {border: 1px solid #ed1c24;position: relative;z-index: 10}
+#content .content_area .contentnav ul li a {display: block; font-size: 1.143em; padding: 17px 0;color: #666;font-weight: 400}
+#content .content_area .contentnav ul li:hover a {color: #ed1c24;font-weight: 700}
+#content .content_area .contentnav ul .select {border: 1px solid #ed1c24;position: relative;z-index: 10}
+#content .content_area .contentnav ul .select a {color: #ed1c24;font-weight: 700}
+
+#content .content_area .office_content {}
+/*.tabs .contlist {display: none}*/
+#content .content_area .office_content ul {overflow: hidden;margin-bottom: 50px;display: none}
+#content .content_area .office_content ul li {width: 998px;height: 318px;overflow: hidden;border: 1px solid #ccc;margin: 0 auto 50px}
+#content .content_area .office_content ul li:last-of-type {margin-bottom: 0}
+#content .content_area .office_content ul li img {float: left}
+#content .content_area .office_content ul li dl {margin: 50px 90px 0 520px}
+#content .content_area .office_content ul li dl dt {font-weight: 700;font-size: 1.571em;margin-bottom: 30px}
+#content .content_area .office_content ul li dl dd {font-size: 1.143em;line-height: 1.5em;margin-bottom: 15px;overflow: hidden}
+#content .content_area .office_content ul li dl dd strong {float: left;display: block}
+#content .content_area .office_content ul li dl dd span {display: block;margin-left: 50px}

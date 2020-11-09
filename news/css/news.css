@@ -1,0 +1,113 @@
+/*2depth의 공통*/
+.visual {width: 2000px;height: 400px;position: relative;left: 50%;margin-top: 138px;margin-left: -1000px;z-index: -1;overflow: hidden}
+.visual img {width: 2000px;margin-top: -400px;filter: saturate(.8) brightness(.8)}
+
+.subnav_box {width: 1200px; margin: 0 auto 100px;position: relative;text-align: center;font-family: 'Nanum Gothic', sans-serif;}
+.subnav_box .subnav_text {position: absolute;height: 400px;width: 2000px;left: 50%;top: -400px;margin-left: -1000px;color: #fff;overflow: hidden}
+.subnav_box .subnav_text h3 {font-size: 2.857em;letter-spacing: -1px;font-weight: 400;margin: 140px 0 30px}
+.subnav_box .subnav_text p {font-size: 1.429em;line-height: 1.5em}
+
+.subnav_box .subnav {}
+.subnav_box .subnav ul {overflow: hidden;margin: 0 auto;width: 1000px; border-bottom: 1px solid #ccc}
+.subnav_box .subnav ul li {position: relative;width: 33.33%; float: left;text-align: center}
+.subnav_box .subnav ul li a {display: block; font-size: 1.143em; padding: 17px 0;transition: all .4s ease;color: #666;font-weight: 400}
+.subnav_box .subnav ul li:hover a {color: #ed1c24;font-weight: 700}
+.subnav_box .subnav ul li a:after {content: "";display: block;width: 0;height: 3px;background: #ed1c24;position: absolute;left: 50%;bottom: 0;opacity: 0;transition: all .4s ease;}
+.subnav_box .subnav ul li:hover a:after {content: "";display: block;width: 100%;left: 0;opacity: 1}
+.subnav_box .subnav ul .current {color: #ed1c24;font-weight: 700}
+.subnav_box .subnav ul .current:after {content: "";display: block;width: 100%;left: 0;opacity: 1}
+
+#content {width: 1200px;margin: 0 auto 100px}
+
+#content .title_area {position: relative}
+#content .title_area .line_map {position: absolute;right: 30px;top: -520px;color: #fff}
+#content .title_area h2 {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 3.571em;text-align: center;margin-bottom: 100px}
+
+/*리스트 페이지*/
+#content .content_area {width: 1200px;margin: 0 auto}
+#content .content_area .above_list {overflow: hidden;margin: 0 20px 20px}
+#content .content_area .above_list span {float: left;color: #666;font-size: 12px}
+#content .content_area .above_list select {float: right;border: none;color: #666;font-size: 12px;cursor: pointer;outline: none}
+
+#content .content_area .notice_list {}
+#content .content_area .notice_list .list_top_title,#content .content_area .notice_list .list_content .list_box ul {overflow: hidden;padding: 20px;text-align: center}
+#content .content_area .notice_list .list_top_title {border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;font-weight: 700}
+#content .content_area .notice_list .list_top_title li,#content .content_area .notice_list .list_content .list_box ul li {float: left}
+#content .content_area .notice_list .list_top_title li:nth-of-type(1),#content .content_area .notice_list .list_content .list_box ul li:nth-of-type(1) {width: 50px}
+#content .content_area .notice_list .list_top_title li:nth-of-type(2),#content .content_area .notice_list .list_content .list_box ul li:nth-of-type(2) {width: 750px}
+#content .content_area .notice_list .list_top_title li:nth-of-type(3),#content .content_area .notice_list .list_content .list_box ul li:nth-of-type(3) {width: 160px}
+#content .content_area .notice_list .list_top_title li:nth-of-type(4),#content .content_area .notice_list .list_content .list_box ul li:nth-of-type(4) {width: 150px}
+#content .content_area .notice_list .list_top_title li:nth-of-type(5),#content .content_area .notice_list .list_content .list_box ul li:nth-of-type(5) {width: 50px}
+
+#content .content_area .notice_list .list_content .list_box {border-bottom: 1px solid #ccc;margin-bottom: 30px}
+#content .content_area .notice_list .list_content .list_box li:hover {background: #eee}
+
+#content .content_area .notice_list .page_button {margin-bottom: 30px}
+#content .content_area .notice_list .page_button .page_num {text-align: center}
+#content .content_area .notice_list .page_button .button {overflow: hidden}
+#content .content_area .notice_list .page_button .button a {margin: 0 2px;padding: 10px 20px;border-radius: 20px;float: right}
+#content .content_area .notice_list .page_button .button a:nth-of-type(1) {border: 1px solid #999}
+#content .content_area .notice_list .page_button .button a:nth-of-type(2) {background: #ed1c24;color: #fff}
+
+#content .content_area form {text-align: center}
+
+#content .content_area .list_search {}
+#content .content_area .list_search select {border: none;outline: none;cursor: pointer}
+#content .content_area .list_search input:nth-of-type(1) {border: none; border-bottom: 1px solid #ccc; width: 280px; height: 40px; margin: 0 10px;outline: none}
+#content .content_area .list_search input:nth-of-type(2) {border: 1px solid #999; background: none;border-radius: 3px; padding: 8px 18px; line-height: 19px;outline: none;cursor: pointer}
+
+/*글쓰기 페이지*/
+#content .title_area .s_title {font-size: 2.714em}
+#content .content_area .write_form {margin-bottom: 30px}
+#content .content_area .write_form .write_info {overflow: hidden;font-family: 'Nanum Gothic', sans-serif;width: 1000px;margin: 0 auto 20px}
+#content .content_area .write_form .write_info div:nth-of-type(1) {float: left;font-weight: 700}
+#content .content_area .write_form .write_info div:nth-of-type(2) {float: right;font-size: 12px}
+#content .content_area .write_form .write_subject {margin-bottom: 10px}
+#content .content_area .write_form .write_subject input,#content .content_area .write_form .write_content textarea{width: 978px;border: 1px solid #ccc;border-radius: 5px;outline: none;font-size: 1em;line-height: 2em}
+#content .content_area .write_form .write_subject input {height: 30px;font-weight: 700;padding: 5px 10px}
+#content .content_area .write_form .write_content {margin-bottom: 10px}
+#content .content_area .write_form .write_content textarea {font-family: "돋움", Dotum, sans-serif;padding: 10px}
+
+#content .content_area .write_form .write_file {}
+#content .content_area .write_form .write_file ul {}
+#content .content_area .write_form .write_file ul li {margin-bottom: 10px}
+#content .content_area .write_form .write_file ul li label {margin-right: 5px; padding: 10px 15px;border-radius: 5px;border: 1px solid #666;background: #666; color: #fff}
+#content .content_area .write_form .write_file ul li .file_input_textbox {height: 30px; width: 876px;border: 1px solid #ccc;border-radius: 5px;outline: none;padding: 2px 10px;line-height: 14px}
+#content .content_area .write_form .write_file ul li .delete_ok {text-align: left;position: relative;left: 210px; font-size: 12px;margin: 5px 0 20px}
+#content .content_area .write_form .write_file ul li .delete_ok span {color: #666}
+
+#content .content_area .write_button {overflow: hidden;width: 1000px;margin: 0 auto}
+#content .content_area .write_button a,#content .content_area .write_button input {margin: 0 2px;padding: 10px 20px;border-radius: 20px;border: none}
+#content .content_area .write_button a {border: 1px solid #999;float: left}
+#content .content_area .write_button input {background: #ed1c24;color: #fff;float: right;cursor: pointer;outline: none}
+
+
+
+/*글보기 페이지*/
+#content .content_area .view_title_sub1 {text-align: center; font-weight: 700;margin-bottom: 5px}
+#content .content_area .view_title_sub2 {text-align: center;font-size: 0.857em;color: #999;margin-bottom: 20px;overflow: hidden}
+#content .content_area .view_title_sub2:after,#content .content_area .view_button:before {content: "";display: block;height: 1px;background: #ccc;margin: 20px auto 50px}
+#content .content_area .view_content {width: 90%;margin: 0 auto;line-height: 2em}
+#content .content_area .view_content:after {content: "";display: block;height: 1px;background: #ccc;margin: 50px auto 10px}
+#content .content_area .view_content img {display: block;margin: 0 auto}
+
+#content .content_area .ripple {width: 90%;margin: 0 auto;line-height: 2em}
+#content .content_area .ripple>ul {margin-bottom: 10px}
+#content .content_area .ripple>ul>li {padding: 10px;border-bottom: 1px dashed #ccc;width: 90%;margin: 0 auto}
+#content .content_area .ripple>ul>li:last-of-type {border-bottom: none}
+#content .content_area .ripple .ripple_writer_title {overflow: hidden}
+#content .content_area .ripple .ripple_writer_title li:nth-of-type(1) {font-weight: 700;float: left;margin-right: 10px}
+#content .content_area .ripple .ripple_writer_title li:nth-of-type(2) {font-size: 10px;color: #666;float: left}
+#content .content_area .ripple .ripple_writer_title li:nth-of-type(3) {font-size: 12px;color: #666;float: right}
+#content .content_area .ripple .ripple_box {width: 100%;margin: 0 auto}
+#content .content_area .ripple .ripple_box:after {content: "";display: block;clear: both}
+#content .content_area .ripple .ripple_box textarea {display: block;width: 96%;border: 1px solid #ccc;border-radius: 5px;outline: none;padding: 2%;margin-bottom: 10px}
+#content .content_area .ripple .ripple_box a {display: block;float: right;padding: 10px 20px;border-radius: 5px;border: none;border: 1px solid #ed1c24;color: #ed1c24;transition: all .4s ease}
+#content .content_area .ripple .ripple_box a:hover {background: #ed1c24; color: #fff}
+
+#content .content_area .view_button {margin: 0 auto;overflow: hidden}
+#content .content_area .view_button a {margin: 0 5px; padding: 10px 20px;border-radius: 20px;border: none}
+#content .content_area .view_button a:nth-of-type(1) {float: right;border: 1px solid #999}
+#content .content_area .view_button a:nth-of-type(2) {float: left;background: #ed1c24;color: #fff}
+#content .content_area .view_button a:nth-of-type(3),#content .content_area .view_button a:nth-of-type(4) {float: left;border: 1px solid #999}
+

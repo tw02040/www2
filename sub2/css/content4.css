@@ -1,0 +1,17 @@
+/*기후 본문*/
+#content .content_area {}
+#content .content_area  p {font-size: 1.143em;text-align: justify;line-height: 1.8em;margin:0 100px 50px}
+#content .content_area .hongkong_weather {}
+#content .content_area .hongkong_weather h3 {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 2.143em;text-align: center;margin-bottom: 100px;position: relative}
+#content .content_area .hongkong_weather h3:after {content: "";display: block;width: 70px;height: 3px;position: absolute;left: 50%;margin-left: -35px;bottom: -20px;background: #ed1c24}
+#content .content_area .hongkong_weather div {overflow: hidden;margin: 0 100px}
+#content .content_area .hongkong_weather div:first-of-type {margin-bottom: 50px}
+#content .content_area .hongkong_weather div dl {float: left;width: 415px;height: 415px;margin-right: 50px;padding: 30px;overflow: hidden;position: relative;z-index: -20}
+#content .content_area .hongkong_weather div dl:last-of-type {margin-right: 0}
+#content .content_area .hongkong_weather div:nth-of-type(1) dl:nth-of-type(1) {background: url(../images/content4/hongkong_spring_img.jpg)}
+#content .content_area .hongkong_weather div:nth-of-type(1) dl:nth-of-type(2) {background: url(../images/content4/hongkong_summer_img.jpg)}
+#content .content_area .hongkong_weather div:nth-of-type(2) dl:nth-of-type(1) {background: url(../images/content4/hongkong_autumn_img.jpg)}
+#content .content_area .hongkong_weather div:nth-of-type(2) dl:nth-of-type(2) {background: url(../images/content4/hongkong_winter_img.jpg)}
+/*#content .content_area .hongkong_weather div dl:after {content: "";display: block;width: 475px;height: 475px;position: absolute;left: 0;top: 0;background: #000;opacity: .1;z-index: -10}*/
+#content .content_area .hongkong_weather div dl dt {font-family: 'Roboto', sans-serif;font-size: 3.571em;font-weight: 500;color: #fff;margin-bottom: 10px;margin-top: 260px;text-transform: uppercase}
+#content .content_area .hongkong_weather div dl dd {font-family: 'Nanum Gothic', sans-serif;font-size: 1.429em;line-height: 1.5em;color: #fff}

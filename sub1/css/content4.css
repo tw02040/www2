@@ -1,0 +1,28 @@
+/*오시는길 본문*/
+#content .content_area {font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area:after {content: "";display: block;clear: both}
+#content .content_area .map_box {position: relative}
+#content .content_area .map_box #tourism_board_map {width: 1200px;height: 600px}
+#content .content_area .map_box>div:nth-child(2) {position: absolute;width: 1000px;height: 200px;left: 50%;bottom: -100px;margin-left: -500px;background: rgba(237,28,35,1);z-index: 10}
+#content .content_area .map_box div:nth-child(2) dl {margin: 50px 50px 0;color: #fff;overflow: hidden}
+#content .content_area .map_box div:nth-child(2) dt {font-weight: 700;font-size: 1.571em;float: left}
+#content .content_area .map_box div:nth-child(2) dd {font-size: 1.143em;margin: 0 0 23px 330px}
+
+#content .content_area section {width: 1000px;margin: 200px auto 0}
+#content .content_area section:after {content: "";display: block;clear: both}
+#content .content_area section h3 {float: left;font-weight: 700;font-size: 1.571em}
+#content .content_area section ul {float: left;font-size: 1.143em;margin-left: 160px}
+#content .content_area .subway_route ul li {margin-bottom: 90px;position: relative}
+#content .content_area .subway_route ul li:before {content: "";display: block;width: 42px;height: 42px; position: absolute;left: -65px;top: 50%;margin-top: -25px;border-radius: 25px;text-align: center;line-height: 40px;font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 1.286em}
+#content .content_area .subway_route ul:nth-of-type(1) li:nth-of-type(1):before {content: "2";color: #10a643;border: 4px solid #10a643}
+#content .content_area .subway_route ul:nth-of-type(1) li:nth-of-type(2):before,#content .content_area .subway_route ul:nth-of-type(2) li:nth-of-type(1):before {content: "1";color: #052f93;border: 4px solid #052f93}
+#content .content_area .subway_route ul:nth-of-type(1) li:nth-of-type(3):before {content: "5";color: #a95094;border: 4px solid #a95094}
+#content .content_area .subway_route ul:nth-of-type(2) li:nth-of-type(2):before,#content .content_area .subway_route ul:nth-of-type(2) li:nth-of-type(3):before {content: "4";color: #00a8e6;border: 4px solid #00a8e6}
+
+#content .content_area .bus_route {position: relative}
+#content .content_area .bus_route:before {content: "";display: block;width: 100%;height: 1px;background: #ccc;position: absolute;left: 0;top: -100px}
+#content .content_area .bus_route ul {position: relative}
+#content .content_area .bus_route ul:before {content: "\f207";display: block;width: 42px;height: 42px; position: absolute;left: -65px;top: 50%;margin-top: -21px;line-height: 40px;font-weight: 700;font-family: "Font Awesome 5 Free";font-size: 3.000em;}
+#content .content_area .bus_route ul:nth-of-type(1):before {color: #2f5597}
+#content .content_area .bus_route ul:nth-of-type(2):before {color: #b52125}
+#content .content_area .bus_route ul li {position: relative;line-height: 1.5em}

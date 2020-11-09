@@ -1,0 +1,13 @@
+/*란콰이퐁 본문*/
+#content .content_area {}
+#content .content_area .hongkong_popular {margin-bottom: 100px}
+#content .content_area .hongkong_popular p:first-of-type {font-family: 'Nanum Myeongjo', sans-serif;font-size: 1.429em;text-align: center}
+#content .content_area .hongkong_popular span {color: #ed1c24}
+#content .content_area .hongkong_popular .popular_img {width: 1200px; height: 550px;background: url(../images/content4/top5_club_img.jpg) no-repeat;background-position: center;margin-bottom: 50px}
+#content .content_area .hongkong_popular p {line-height: 2em;font-size: 1.143em;text-align: justify;margin-bottom: 30px}
+
+#content .content_area .popular_location span {display: block;font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 2.143em;text-align: center;margin-bottom: 100px;position: relative}
+#content .content_area .popular_location span:after {content: "";display: block;width: 70px;height: 3px;position: absolute;left: 50%;margin-left: -35px;bottom: -20px;background: #ed1c24}
+
+#content .content_area .popular_location_map {width: 1000px; height: 600px; margin: 0 auto}
+#content .content_area .popular_location_map iframe {width: 100%; height: 100%}

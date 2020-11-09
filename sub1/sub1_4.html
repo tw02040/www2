@@ -1,0 +1,95 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-오시는길</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub1common.css">
+	<link rel="stylesheet" href="css/content4.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<script src="https://kit.fontawesome.com/70f6805e6c.js" crossorigin="anonymous"></script>
+	<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6f8e943a67c46ae94fe4268ea1043abe"></script>
+	<script src="js/tourism_board_map.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<div class="visual">
+		    <img src="common/images/introduce_visual.jpg" alt="">
+		</div>
+		<div class="subnav_box">
+            <div class="subnav_text">
+                <h3>관광청소개</h3>
+                <p>누구나 여행 가고 싶은 매력적인 볼거리가 넘치는 홍콩!
+                    <br>홍콩 관광청에 대해 소개합니다.
+                </p>
+            </div>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub1_1.html">인사말</a></li>
+                    <li><a id="nav2" href="sub1_2.html">목표</a></li>
+                    <li><a id="nav3" href="sub1_3.html">세계지사</a></li>
+                    <li><a class="current" id="nav4" href="sub1_4.html">오시는길</a></li>
+                </ul>
+            </div>
+		</div>
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>관광청소개</span>&gt;<strong>오시는길</strong>
+		        </div>
+		        <h2>오시는길</h2>
+		    </div>
+		    <div class="content_area">
+	        	<div class="map_box">
+					<div id="tourism_board_map"></div>
+					<div>
+						<dl>
+							<dt>홍콩관광청 한국사무소</dt>
+							<dd>도로명 주소 : 서울 중구 을지로 16 프레지던트호텔 1105호</dd>
+							<dd>지번 주소 : 서울 중구 을지로1가 188-3 1105호</dd>
+							<dd>대표 번호 : 02-778-4403</dd>
+						</dl>
+					</div>
+		        </div>
+        		<section class="subway_route">
+					<h3>지하철 이용 안내</h3>
+					<ul>
+						<li>을지로 입구역 8번 출구에서 도보 4분</li>
+						<li>시청역 5번 출구에서 도보 5분</li>
+						<li>광화문역 5번 출구에서 도보 10분</li>
+					</ul>
+					<ul>
+						<li>종각역 5번 출구에서 도보 11분</li>
+						<li>회현역 7번 출구에서 도보 14분</li>
+						<li>명동역 5번 출구에서 도보 16분</li>
+					</ul>
+	        	</section>
+		        <section class="bus_route">
+		        	<h3>버스 이용 안내</h3>
+		        	<ul>
+						<li>서울광장(02-641) 에서 도보 2분</li>
+						<li>172, 405, 472, N62</li>
+					</ul>
+					<ul>
+						<li>서울시청(02-100) 에서 도보 3분</li>
+						<li>3201, 4108, 8800, 9007</li>
+		        	</ul>
+		        </section>	        
+		    </div>
+		</article>
+		<? include "../common/sub_foot.html" ?>
+</body>
+</html>

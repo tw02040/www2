@@ -1,0 +1,24 @@
+/*2depth의 공통*/
+.visual {width: 2000px;height: 400px;position: relative;left: 50%;margin-top: 138px;margin-left: -1000px;z-index: -1;overflow: hidden}
+.visual img {width: 2000px;margin-top: -310px;filter: saturate(.8) brightness(.85)}
+
+.subnav_box {width: 1200px; margin: 0 auto 100px;position: relative;text-align: center;font-family: 'Nanum Gothic', sans-serif;}
+.subnav_box .subnav_text {position: absolute;height: 400px;width: 2000px;left: 50%;top: -400px;margin-left: -1000px;color: #fff;overflow: hidden}
+.subnav_box .subnav_text h3 {font-size: 2.857em;letter-spacing: -1px;font-weight: 400;margin: 140px 0 30px}
+.subnav_box .subnav_text p {font-size: 1.429em;line-height: 1.5em}
+
+.subnav_box .subnav {}
+.subnav_box .subnav ul {overflow: hidden;margin: 0 auto;width: 1000px; border-bottom: 1px solid #ccc}
+.subnav_box .subnav ul li {position: relative;width: 25%; float: left;text-align: center}
+.subnav_box .subnav ul li a {display: block; font-size: 1.143em; padding: 17px 0;transition: all .4s ease;color: #666;font-weight: 400}
+.subnav_box .subnav ul li:hover a {color: #ed1c24;font-weight: 700}
+.subnav_box .subnav ul li a:after {content: "";display: block;width: 0;height: 3px;background: #ed1c24;position: absolute;left: 50%;bottom: 0;opacity: 0;transition: all .4s ease;}
+.subnav_box .subnav ul li:hover a:after {content: "";display: block;width: 100%;left: 0;opacity: 1}
+.subnav_box .subnav ul .current {color: #ed1c24;font-weight: 700}
+.subnav_box .subnav ul .current:after {content: "";display: block;width: 100%;left: 0;opacity: 1}
+
+#content {width: 1200px;margin: 0 auto 100px}
+
+#content .title_area {position: relative}
+#content .title_area .line_map {position: absolute;right: 30px;top: -520px;color: #fff}
+#content .title_area h2 {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 3.571em;text-align: center;margin-bottom: 100px}

@@ -1,0 +1,24 @@
+/*목표 본문*/
+#content .content_area {}
+#content .content_area .hongkong_misson {margin-bottom: 100px}
+#content .content_area .hongkong_misson p:first-of-type {font-family: 'Nanum Myeongjo', sans-serif;font-size: 1.429em;text-align: center}
+#content .content_area .hongkong_misson span {color: #ed1c24}
+#content .content_area .hongkong_misson .misson_img {width: 1200px; height: 550px;background: url(../images/content2/misson_img.jpg) no-repeat;background-size: cover;background-position: center;margin-bottom: 50px}
+#content .content_area .hongkong_misson p {line-height: 2em;font-size: 1.143em;text-align: justify;margin-bottom: 30px}
+
+#content .content_area .hongkong_work {}
+#content .content_area .hongkong_work h3 {font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 2.143em;text-align: center;margin-bottom: 100px;position: relative}
+#content .content_area .hongkong_work h3:after {content: "";display: block;width: 70px;height: 3px;position: absolute;left: 50%;margin-left: -35px;bottom: -20px;background: #ed1c24}
+#content .content_area .hongkong_work div {overflow: hidden;margin: 0 25px}
+#content .content_area .hongkong_work div:first-of-type {margin-bottom: 20px}
+#content .content_area .hongkong_work div dl {float: left;width: 310px;height: 310px;margin-right: 20px;padding: 30px;overflow: hidden;position: relative;z-index: -20}
+#content .content_area .hongkong_work div dl:last-of-type {margin-right: 0}
+#content .content_area .hongkong_work div:nth-of-type(1) dl:nth-of-type(1) {background: url(../images/content2/work_img_01.jpg)}
+#content .content_area .hongkong_work div:nth-of-type(1) dl:nth-of-type(2) {background: url(../images/content2/work_img_02.jpg)}
+#content .content_area .hongkong_work div:nth-of-type(1) dl:nth-of-type(3) {background: url(../images/content2/work_img_03.jpg)}
+#content .content_area .hongkong_work div:nth-of-type(2) dl:nth-of-type(1) {background: url(../images/content2/work_img_04.jpg)}
+#content .content_area .hongkong_work div:nth-of-type(2) dl:nth-of-type(2) {background: url(../images/content2/work_img_05.jpg)}
+#content .content_area .hongkong_work div:nth-of-type(2) dl:nth-of-type(3) {background: url(../images/content2/work_img_06.jpg)}
+#content .content_area .hongkong_work div dl:after {content: "";display: block;width: 370px;height: 370px;position: absolute;left: 0;top: 0;background: #000;opacity: .1;z-index: -10}
+#content .content_area .hongkong_work div dl dt {font-family: 'Roboto', sans-serif;font-size: 3.571em;font-weight: 500;color: #fff;margin-bottom: 10px;margin-top: 185px}
+#content .content_area .hongkong_work div dl dd {font-family: 'Nanum Gothic', sans-serif;font-size: 1.429em;line-height: 1.5em;color: #fff}

@@ -1,0 +1,54 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>홍콩관광청-홍콩 디즈니랜드</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../common/css/icon_sns.css">
+	<link rel="stylesheet" href="../common/css/icon_arrow.css">
+	<link rel="stylesheet" href="common/css/sub4common.css">
+	<link rel="stylesheet" href="css/content2.css">
+	<script src="../common/js/prefixfree.min.js"></script>
+	<!--[if IE9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<? include "../common/sub_head.html" ?>
+	<? $_GET['num']=2;
+      include "common/sub_nav.html";?>
+      
+		<article id="content">
+		    <div class="title_area">
+		        <div class="line_map">
+		            <span>home</span>&gt;<span>대표관광지</span>&gt;<strong>홍콩 디즈니랜드</strong>
+		        </div>
+		        <h2>홍콩 디즈니랜드</h2>
+		    </div>
+		    <div class="content_area">
+        		<div class="hongkong_popular">
+					<p>홍콩디즈니랜드 리조트에서 <span>디즈니 캐릭터들, 흥미로운 놀이기구</span>와 함께 완벽한 디즈니 세계를 경험해보세요!</p>
+					<div class="popular_img"></div>
+					<p>당신이 좋아하는 놀이기구와 디즈니 캐릭터들과 함께 즐거운 시간을 보내세요! 마법 같은 호텔에 숙박하고 세계적 수준의 서비스를 즐기시거나 수상 경력에 빛나는 요리사가 제공하는 놀라운 식사를 즐겨보세요. 그리고 사랑하는 사람들을 위한 디즈니의 멋진 선물도 잊지 마세요!</p>
+					<p>신나는 모험을 즐기셨다면, 아시아, 오세아니아, 남아메리카 및 아프리카의 독특한 네가지 열대기후가 내다보이고 자연의 신비와 다양한 문화에 둘러싸인 이 이국적인 호텔에서 잠시 휴식을 취해보십시오. 또한, 5개 대륙의 인터내셔널 요리와 대형 야외수영장도 준비 되어있습니다.</p>
+					<p>홍콩디즈니랜드 리조트에 머무는 투숙객들은 호텔의 레크리에이션 시설에서 하루 종일 즐거운 액티비티에 참여하실 수 있습니다. 아이들을 위한 아트크래프트 수업에서는 핸드메이드 디즈니 작품을 만들 수 있으며 디즈니 캐릭터 친구들도 만날 수 있습니다.</p>
+		        </div>
+		        <div class="popular_location">
+					<span>위치</span>
+					<div class="popular_location_map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8778.874909995964!2d114.03928749937195!3d22.31348647947792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fc2f53d3953d%3A0x35b3af6ce4475405!2z7ZmN7L2pIOuUlOymiOuLiOuenOuTnCDrpqzsobDtirg!5e0!3m2!1sko!2skr!4v1595992289821!5m2!1sko!2skr" allowfullscreen="" aria-hidden="false" tabindex="0" title="홍콩 디즈니랜드 위치 지도"></iframe>
+					</div>
+				</div>
+		    </div>
+		</article>
+		<? include "../common/sub_foot.html" ?>
+</body>
+</html>

@@ -1,0 +1,4 @@
+/*위치 본문*/
+#content .content_area {}
+#content .content_area img {margin-bottom: 50px}
+#content .content_area p {font-size: 16px;line-height: 1.8em;text-align: justify}
